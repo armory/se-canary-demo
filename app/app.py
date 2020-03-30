@@ -35,7 +35,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
 
-    return "You have reached Flask-app! This will be tagged as latest"
+    return "You have reached Flask-app! This will be tagged as latest!"
 
 
 @app.route('/test')
