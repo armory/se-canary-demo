@@ -35,7 +35,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
 
-    return "Welcome Home!!!"
+    return "Welcome to the top"
 
 
 @app.route('/test')
